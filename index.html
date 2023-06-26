@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="pl">
+<!-- All icons provided by icons8.com https://icons8.com/icons/wired -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dr Andrzej Marjański</title>
+    <link rel="stylesheet" href="./resources/css/style.css">
+    <link rel="stylesheet"
+        href='https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap'>
+</head>
+
+<body>
+    <header>
+        <nav class="toggle">
+            <div class="fullPageMenu" id="nav">
+                <div class="nav">
+                    <ul class="menu__ulist">
+                        <li class="menu__item"><a data-text="O mnie" href="#o-mnie" onclick="menuToggle()">O mnie</a></li>
+                        <li class="menu__item"><a data-text="Publikacje" href="#publikacje"
+                                onclick="menuToggle()">Publikacje</a></li>
+                        <li class="menu__item"><a data-text="Dla studentów" href="#dla-studentow"
+                                onclick="menuToggle()">Dla studentów</a></li>
+                        <li class="menu__item"><a data-text="Kontakt" href="#kontakt" onclick="menuToggle()">Kontakt</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="side-menu">
+                <div class="menu-icon" id="toggle" onclick="menuToggle()">
+                    <img src="./resources/images/icon-menu.png" alt="Menu">
+                </div>
+
+                <div class="menu-icon">
+                    <a data-text="O mnie" href="#o-mnie">
+                        <img src="./resources/images/icon-omnie.png" alt="O mnie">
+                        <div class="menu-icon-label">
+                            <p class="text">O&nbsp;mnie</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="menu-icon">
+                    <a data-text="Publikacje" href="#publikacje">
+                        <img src="./resources/images/icon-pub.png" alt="Publikacje">
+                        <div class="menu-icon-label">
+                            <p>Publikacje</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="menu-icon">
+                    <a data-text="Dla studentów" href="#dla-studentow">
+                        <img src="./resources/images/icon-stud.png" alt="Dla studentów">
+                        <div class="menu-icon-label">
+                            <p>Dla&nbsp;studentów</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="menu-icon">
+                    <a data-text="Kontakt" href="#kontakt">
+                        <img src="./resources/images/icon-contact.png" alt="Kontakt">
+                        <div class="menu-icon-label">
+                            <p>Kontakt</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="menu-icon" id="back-to-top" onclick="scrollToTop()">
+                    <a href="#">                    
+                        <img src="./resources/images/icon-back-to-top.png" alt="Na początek strony">
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="logo">
+            <h1 class="header-main" id="logoLabel">dr&nbsp;Andrzej Marjański</h1>
+        </div>
+        <div class="central-line" id="intro"></div>
+        <section class="main">
+            <article>
+                <div class="flex-2-col">
+                    <div>
+                        <h2 class="subtitle">
+                            <b>
+                                Serdecznie zapraszam do odwiedzenia mojej strony domowej
+                            </b>
+                        </h2>
+                        <p class="text"><br>
+                            Na stronie znajdują się informacje o konsultacjach,
+                            dane kontaktowe oraz udostępnione dla studentów pliki&nbsp;i&nbsp;zasoby.
+                        </p>
+                        <div>
+                            <p class="text__right"><br>
+                                Z poważaniem, <br> Andrzej Marjański
+                            </p>
+                        </div>
+                    </div>
+                    <div class="image-container">
+                        <img src="./resources/images/mini_andrzej-marjanski.png" alt="Andrzej Marjański portret">
+                    </div>
+                </div>
+            </article>
+        </section>
+        <div class="central-line"></div>
+
+        <section class="main">
+            <article id="o-mnie">
+                <h2 class="heading-secondary">O mnie</h2>
+                <p class="subtitle ">
+                    <b>Andrzej Marjański</b>, professor UoSS, PhD of management sciences, head of the Department of
+                    Entrepreneurship and Family Businesses at the University of Social Sciences in Łódź, Poland. Vice
+                    Dean for Research and Doctoral Degree.
+                </p>
+                <p class="text"><br>
+                    His scientific interests and activity as an expert concentrate on the issues of family enterprises,
+                    development strategies, entrepreneurship and management of small and medium-sized enterprises. He
+                    participated in several research projects and worked as an expert in the committees for evaluation
+                    of economic projects. His expertise includes also the issues of national security, especially in the
+                    field of rescue and crisis management.
+                </p>
+                <p class="text"><br>
+                    Since 2011, he has been chairing the Family Businesses scientific conference, organized by the
+                    Entrepreneurship and Family Businesses Chair of the University of Social Sciences in Łódź. He was
+                    the scientific coordinator in the Pentor research project for the Polish Agency for Enterprise
+                    Development and the vice-chairman of the Program Council and an expert in the PARP-IFR Family
+                    Business Training and Consulting Project. He implemented the international cycle "Business Transfer
+                    Programme" for family businesses undergoing the process of succession. Expert in the project
+                    "Succession Guide in Family Companies". He advises family businesses in the implementation of
+                    development strategies and succession. He participates in the work of the "Forum of Organizations of
+                    Family Businesses" of the Polish Agency for Enterprise Development.
+                </p>
+                <p class="text"><br>
+                    Member of IFERA - International Family Enterprise Research Academy, International Atlantic Economic
+                    Society (USA), Polish Economic Society, National Entrepreneurship Council at the Ministry of Economy
+                    (2013-2015) and the Family Business Initiative Association.
+                </p>
+                <p class="text"><br>
+                    The author, co-author and editor of over 100 publications on management, succession and development
+                    strategy in family businesses and management of small and medium-sized enterprises, including the
+                    book "Family businesses - how to achieve success in the relay of generations" (Poltext, 2009,2011).
+                    His achievements include also a number of publications related to security and crisis management.
+                </p>
+                <p class="text"><br>
+                    He is the content editor in the periodicals 'Entrepreneurship and Management', 'Journal of
+                    Intercultural Management', and 'International Journal of Small and Medium Enterprises and Business
+                    Sustainability' (Indonesia). He is a reviewer in several Polish and foreign scientific journals. He
+                    participates in the works of scientific committees of several conferences.
+                </p>
+            </article>
+        </section>
+        <div class="central-line"></div>
+
+        <section class="main">
+            <article id="publikacje">
+                <h2 class="heading-secondary">Publikacje</h2>
+                <p class="subtitle">
+                    <b><a href="https://orcid.org/0000-0001-6534-2632">ORCID</a></b>
+                </p>
+                <p class="subtitle">
+                    <b><a href="https://www.researchgate.net/profile/Andrzej-Marjanski">ResearchGate</a></b>
+                </p>
+                <h3 class="heading-tertiary">&nbsp;</h3>
+                <h3 class="heading-tertiary">2021</h3>
+                <ol class="text">
+                    <li>Marjański A., Sułkowski Ł. (2021), <em>Consolidation strategies of small family firms in Poland
+                            during the Covid-19 crisis</em>, Entrepreneurial Business and Economics Review, 9(2), s.
+                        167-182. https://doi.org/10.15678/<wbr>EBER.2021.090211 ISSN: 2353-8821.</li>
+                    <li>J.Bilski, B. Kowalczyk, A. Marjański, M. Gandor, J. Zurada (2021), A Novel Fast Feedforward
+                        Neural Networks Training Algorithm, “JAISCR”, vol. 11 no. 4, s. 287 - 306.
+                        https://doi.org/10.2478/jaiscr-2021-0017</li>
+                </ol>
+
+                <h3 class="heading-tertiary">2020</h3>
+                <ol>
+                    <li><span class="button-full" style="font-family: arial, helvetica, sans-serif;">Marjański A.,
+                            Sułkowski Ł. (2020) <em>Entrepreneurial Family Businesses in Poland: From an Emerging to a
+                                Developed Market.</em> In: Klonowski D. (eds) Entrepreneurial Finance in Emerging
+                            Markets. Palgrave Macmillan, Cham, s. 87-101, <a
+                                href="https://doi.org/10.1007/978-3-030-46220-8_7">https://doi.org/10.1007<wbr>/978-3-030-46220-8_7</a>&nbsp;</span>
+                    </li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">Ignatowski, A. Marjański, B.
+                            Stopczyński (2020), <em>Ambivalent Understanding of Nepotism in Small and Medium Family
+                                Business</em>, in:&nbsp;&nbsp; Khalid S. Soliman (eds) Education Excellence and
+                            Innovation Management: A 2025 Vision to Sustain Economic Development during Global
+                            Challenges, Proceedings of the 35th International Business Information Management
+                            Association Conference (IBIMA), s. 7762-7779.&nbsp; ISBN: 978-09998551-4-1.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">Marjański, A. Chrząszcz, Z.
+                            Ciekanowski, A. Kifondis, K<em>apitał ludzki w organizacji wiedzy</em>, w: Экономика и
+                            управление: социальный, экономический и инженерный аспекты: сборник научный статей III
+                            Международной научно-практической конференции, УО Брестский государственный технический
+                            университет, г. Брест, 19–20 ноября 2020 г.; редкол.: С. Ф. Куган [и др.], Издательство
+                            БрГТУ, 2020. – 358 с., Брест 2020, s. 169-178. ISBN 978-985-493-513-3.</span></li>
+                    <li>A. Marjański, A. Chrząszcz, Z. Ciekanowski, A. Kifondis, Kapitał ludzki w organizacji wiedzy, w:
+                        Экономика и управление: социальный, экономический и инженерный аспекты: сборник научный статей
+                        III Международной научно-практической конференции, УО Брестский государственный технический
+                        университет, г. Брест, 19–20 ноября 2020 г.; редкол.: С. Ф. Куган [и др.], Издательство БрГТУ,
+                        2020. – 358 с., Брест 2020, s. 169-178. ISBN 978-985-493-513-3.</li>
+                </ol>
+                <h3 class="heading-tertiary">2019</h3>
+                <ol>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">J. Jeżak, K. Safin, A. Marjański,
+                            <em>Strategia rozwoju przedsiębiorstwa rodzinnego</em>, w: K .Safin, I. Koładkiewicz
+                            (red.nauk.), Zarządzanie firmą rodzinną. Kluczowe wyzwania, Poltext, Warszawa 2019, ss.
+                            165-186, ISBN 978-83-7561-863-1.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">Marjański, A., &amp; Sułkowski, Ł.
+                            (2019). <em>The Evolution of Family Entrepreneurship in Poland: Main Findings Based on
+                                Surveys and Interviews</em> <em>from 2009-2018.</em> <em>Entrepreneurial Business and
+                                Economics Review, </em>7(1), s. 95-116. <a
+                                href="https://doi.org/10.15678/EBER.2019.070106">https://doi.org/10.15678/<wbr>EBER.2019.070106</a>
+                            ISSN: 2353-8821</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">Marjański, A., Sułkowski, Ł.,
+                            Marjańska-Potakowska, J., &amp; Staniszewska, K. (2019). <em>Social capital drives SME
+                                growth: A study of family firms in Poland</em>, “German Journal of Human Resource
+                            Management”, vol. 33(3), s. 280-304. <a
+                                href="https://doi.org/10.1177/2397002219847668">https://doi.org/10.1177/<wbr>2397002219847668</a>&nbsp;
+                            eISSN: 23970030.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Nikodemska-Wołowik, A. Marjański, A.
+                            Brack (2019), <em>Company&nbsp; Values – A Case Study of the Family Enterprise August Storck
+                                KG. </em>Journal of Intercultural Management, Vol 11, No.1, March, pp. 5-22, DOI:
+                            10.2478/joim-2019-0001. &nbsp;ISSN 2543-831X.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">Цекановски З., Павлючук Ю.Н., Марьянски
+                            А., Процесс рекрутации как основа эффективного управления человеческими ресурсами в
+                            организации, THE RECRUITMENT PROCESS AS A FOUNDATION FOR PROPER MANAGEMENT OF HUMAN
+                            RESOURCES IN THE ORGANIZATION [b:] ЦИФРОВИЗАЦИЯ ЭКОНОМИКИ: ВОЗМОЖНОСТИ И ВЫЗОВЫ, науч. ред.
+                            Н.Ю. Псарёва, З. Цекановски, Ю.Н. Павлючук, И.В. Рожкова, О.Н. Кондрашина, АКАДЕМИЯ ТРУДА И
+                            СОЦИАЛЬНЫХ ОТНОШЕНИЙ, Москва 2019, c. 333-341. ISBN 978-5-93441-706-3.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">Marjański, J. Ropęga, Ochotnicze Straże
+                            Pożarne. Zapewnienie efektu synegrii w zarządzaniu kryzysowym, "Bezpieczeństwo. Teoria i
+                            Praktyka”, 2019 nr 4, s. 63-81, e-ISSN 2451-0718, ISSN 1899-6264, DOI:
+                            10.34697/2451-0718-btip-2019-4-003.</span></li>
+                </ol>
+                <h3 class="heading-tertiary">2018</h3>
+                <ol>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">Ł. Sułkowski, A. Marjański, J.
+                            Sułkowska, <em>Entrepreneurship of Family Business in the European Union</em>, w: A.M. Dima
+                            (red.), <em>Doing Business in Europe. Economic Integration Processes, Policies and the
+                                Business Environment</em>, Springer, Cham 2018, s.255-270, ISBN 978-3-319-72238-2, ISBN
+                            978-3-319-72239-9 (eBook).</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">Z. Ciekanowski, M. Kopczewski, A.
+                            Marjański, <em>Bezpieczeństwo dzieci w cyberprzestrzeni w świetle badań</em>,
+                            „Przedsiębiorczość i Zarządzanie”, Tom XIX, zeszyt 1,cz.3, SAN, Łódź 2018, ss. 109-125, ISSN
+                            2543-8190.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">M. Kopczewski, Z. Ciekanowski, A.
+                            Marjański, <em>Edukacja podstawą ochrony dzieci w cyberprzestrzeni</em>, „Przedsiębiorczość
+                            i Zarządzanie”, Tom XIX, zeszyt 1,cz.3, SAN, Łódź 2018, ss. 95-108, ISSN 2543-8190.</span>
+                    </li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, K. Staniszewska, J.
+                            Marjańska-Potakowska, <em>Zrozumienie specyfiki małych przedsiębiorstw rodzinnych jako
+                                źródło synergii w relacjach z administracją publiczną</em>,&nbsp; „Przedsiębiorczość i
+                            Zarządzanie”, Tom XIX, zeszyt 7,cz.1, SAN, Łódź 2018, ss. 275-287, ISSN 2543-8190.</span>
+                    </li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">M. Kopczewski, Z. Ciekanowski, M.
+                            Płucienniczak, A. Marjański, Przemoc i agresja w szkole – uwarunkowania, profilaktyka i
+                            zwalczanie (cz. I), „Przedsiębiorczość i Zarządzanie”, Tom XIX, zeszyt 8,cz.II, SAN, Łódź
+                            2018, ss. 369-384, ISSN 2543-8190.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">Z. Ciekanowski, M. Kopczewski, A.
+                            Marjański, M. Płucienniczak, <em>Przemoc i agresja w szkole – bezpieczeństwo w polskiej
+                                szkole na podstawie badań (cz. II)</em>, „Przedsiębiorczość i Zarządzanie”, Tom XIX,
+                            zeszyt 8,cz.II, SAN, Łódź 2018, s. 385-400, ISSN 2543-8190.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">Ł. Sułkowski, A. Marjański,
+                            Duo-ethnography as the Qualitative Inquiry in Small Family Business Research, “Management”
+                            2018, Vol. 22, No. 2, ss. 95-109, ISSN 1429-9321, DOI: 10.2478/manment-2018-0025.</span>
+                    </li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">J. Nowicka, A. Marjański, Menedżer jako
+                            przedstawiciel elity zasobów ludzkich organizacji, w: МЕХАНИЗМЫ УСТОЙЧИВОГО РАЗВИТИЯ
+                            ЭКОНОМИКИ, ФИНАНСОВЫЙ УНИВЕРСИТЕТ ПРИ ПРАВИТЕЛЬСТВЕ РОССИЙСКОЙ ФЕДЕРАЦИИ, Moskwa 2018, ss.
+                            368-376, ISBN 978-5-93441-674-5.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, A. Chrząszcz, Z.
+                            Ciekanowski, <em>Wykorzystanie motywowania pracowników w procesie zarządzania zasobami
+                                ludzkimi</em>, „Przedsiębiorczość i Zarządzanie”, Tom XIX, zeszyt 11,cz.II, SAN, Łódź
+                            2018, ss. 9-22, ISSN 2543-8190.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">M. Kopczewski, Z. Ciekanowski, A.
+                            Marjański, <em>Planowanie i organizacja działań w sytuacjach kryzysowych</em>, w : J.
+                            Nowicka. S. Krysiński, K. Rejman (red. nauk.), <em>Determinanty współczesnych zagrożeń
+                                bezpieczeństwa państwa</em>, Państwowa Wyższa Szkoła Techniczno-Ekonomiczna im. ks.
+                            Bronisława Markiewicza w Jarosławiu, Jarosław 2018, ss. 215-230, ISBN
+                            978-83-65823-24-3.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, <em>Orientacja
+                                strategiczna w procesie rozwoju przedsiębiorstwa rodzinnego</em>, „Przegląd
+                            Organizacji”, 11/2018, s. 36-42, ISNN 0137-7221, ISNN 2545-2622 (online).</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, Ł. Sułkowski, <em>Wpływ
+                                rodzinności na kształtowanie się strategii przedsiębiorstw rodzinnych</em>, „Prace
+                            Naukowe Uniwersytetu Ekonomicznego we Wrocławiu” 2018 nr 538,s. 216-224, ISSN 1899-3192,
+                            e-ISSN 2392-0041. DOI: 10.15611/pn.2018.538.17</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, <em>Rola zasobów ludzkich
+                                w implementacji kultury bezpieczeństwa w systemie zarządzania kryzysowego</em>,
+                            „Bezpieczeństwo, teoria i praktyka” 2018 nr 4, s. 71-82, e-ISSN 2451-0718, ISSN
+                            1899-6264.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, E. Szweda<em>,
+                                Konstytucja dla Nauki a zarządzanie jakością badań naukowych i edukacją w dyscyplinie
+                                nauki o bezpieczeństwie</em>, „Zarządzanie Publiczne” 2018 nr 4 (44), s. 361-371. DOI
+                            10.4467/20843968ZP.18.029.9932</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, <em>Kto, kiedy i w jaki
+                                sposób przejmie własność</em>, w: Prognozy 2018 Raport Rzeczypospolitej, 20 września
+                            2018.</span></li>
+                </ol>
+                <h3 class="heading-tertiary">2017</h3>
+                <ol>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, <em>Rodzina jako źródło
+                                przedsiębiorczości rodzinnej</em>, Przedsiębiorczość i Zarządzanie”, Tom XVIII, zeszyt
+                            12,cz.I, SAN, Łódź 2017, ss. 197-209, ISSN 2543-8190.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, K. Staniszewska,
+                            <em>Kapitał społeczny rodziny jako źródło stymulacji tworzenia i rozwoju małych i średnich
+                                przedsiębiorstw rodzinnych w Polsce</em>, „Przedsiębiorczość i Zarządzanie”, Tom XVIII,
+                            zeszyt 6,cz.II, SAN, Łódź 2017, ss. 81-66, ISSN:1733-2486.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, J. Starczewski, Z.
+                            Ciekanowski, <em>Planowanie i organizacja działań przedsiębiorstwa w sytuacjach
+                                kryzysowych</em>, Przedsiębiorczość i Zarządzanie”, Tom XVIII, zeszyt 5,cz.III, SAN,
+                            Łódź 2017, ss. 291-313, ISSN:1733-2486.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, <em>Rola Ochotniczych
+                                Straży Pożarnych w zapewnieniu bezpieczeństwa ludności</em>, w: M. Kopczewski, D.
+                            Sienkiewicz (red. nauk), <em>Edukacja warunkiem bezpieczeństwa w XXI w. – Bezpieczeństwo
+                                publicznej wczoraj i dziś</em>, Centrum Szkolenia Sił Powietrznych, Koszalin 2017, ss.
+                            131-147, ISBN 978-83-922914-5-9. &nbsp;</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, <em>Grupy przedsiębiorstw
+                                rodzinnych – orientacja sieciowa w strategiach rozwoju</em>, w: R. Borowiecki, B.
+                            Siuta-Tokarska, K. Żmija (red. nauk.), Zarządzanie działalnością rozwojową przedsiębiorstwa,
+                            Uniwersytet Ekonomiczny w Krakowie, Kraków 2017, s. 41-50. ISBN 978-83-65907-02-8.</span>
+                    </li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">Z. Ciekanowski, A. Marjański,
+                            <em>Uwarunkowania zarządzania kryzysowego na poziomie podstawowym</em>, „Współczesne
+                            Problemy Zarządzania”, Zeszyty Naukowe PWST-E w Jarosławiu, nr10/2017, s, 103-122, ISNN
+                            2300-5175.</span></li>
+                </ol>
+                <h3 class="heading-tertiary">2016</h3>
+                <ol>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, K. Staniszewska, J.
+                            Marjańska, N. Nowak, <em>Ochotnicze Straże Pożarne w systemie zarządzania kryzysowego
+                                Polsk</em>i, Przedsiębiorczość i Zarządzanie”, Tom XVII, zeszyt 5,cz.III, SAN, Łódź
+                            2016, ss. 315-336, ISSN:1733-2486.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, <em>Cele i zasady
+                                zarządzania kryzysowego w systemie bezpieczeństwa wewnętrznego Polski</em>, ss. 6-13,
+                            Sektor bezpieczeństwa Ukrainy: wyzwania współczesności, Narodowy Uniwersytet im. Jarosława
+                            Mądrego, Charków, Ukraina 2016, ss. 6-13, ISBN 978-966-8922-32-9.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, W. Zawisza, J. Ropega,
+                            <em>Organizacyjne aspekty funkcjonowania zespołów zarządzania kryzysowego</em>,
+                            „Przedsiębiorczość i Zarządzanie”, Tom XVII, zeszyt 5,cz.II, SAN, Łódź 2016, ss. 149- 166,
+                            ISSN:1733-2486.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">&nbsp;A. Marjański, W. Zawisza, J.
+                            Ropega<em>, Zespoły zarządzania kryzysowego – organizacja i zadania w systemie zarządzania
+                                kryzysowego</em>, „Przedsiębiorczość i Zarządzanie”, Tom XVII, zeszyt 5,cz.II, SAN, Łódź
+                            2016, ss. 167- 182, ISSN:1733-2486.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, <em>Determinanty
+                                przedsiębiorczości rodzinnej</em>, „Przedsiębiorczość i Zarządzanie”, Tom XVII, zeszyt
+                            6,cz.I, SAN, Łódź 2016, ss. 77- 94, ISSN:1733-2486.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, <em>Strategie małych firm
+                                rodzinnych – specyfika i uwarunkowania</em>, w: J. Klimek, B. Żelazko (red. nauk.),
+                            <em>Zarządzanie firmą rodzinną – wybrane zagadnienia</em>, SGH, Warszawa 2016, ss. 63-74,
+                            ISBN 978-83-8030-041-5.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański (2016), „Opinia na temat
+                            raportu i jego aneksów o strukturze organizacyjnej Związku Harcerstwa Polskiego i projekcie
+                            narzędzia do zarządzania hufcem „Integrator”. Dla Głównej Kwatery Związku Harcerstwa
+                            Polskiego.</span></li>
+                </ol>
+                <h3 class="heading-tertiary">2015</h3>
+                <ol>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">Ł. Sułkowski, A. Marjański, <em>Polish
+                                small and medium-sized family businesses – trajectories of success, </em>Management
+                            &amp; Gouvernance, vol. 13/2015, Grenoble, ss.75-94, ISSN 2104-2438.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, Uwarunkowania strategii
+                            rozwoju przedsiębiorstw rodzinnych, „Przedsiębiorczość i Zarządzanie”, Tom XVI, zeszyt 7,cz.
+                            I, SAN, Łódź 2015, ss. 153- 164, ISSN:1733-2486.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">Ł. Sułkowski, A. Marjański (2015) ,
+                            <em>Entrepreneurship Wave: Family Business Development in Free Market Economy in Poland
+                                1990‐2015</em> (chapter 2)<em>. </em>In: A.S. Gubik &amp; K. Wach (Eds.).
+                            <em>Institutional Aspects of Entrepreneurship. </em>Miskolc: University of Miskolc, pp.
+                            19‐35, ISBN 978‐963‐358‐093‐6</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, <em>Przedsiębiorstwo jako
+                                obiekt działań przedsiębiorczych</em>, w: Ł. Sułkowski, J. Sokołowski (red.), Metody
+                            zarządzania współczesnym przedsiębiorstwem, SAN, Łódź 2015, ss. 45-62, ISBN
+                            978-83-64971-13-6.&nbsp;&nbsp;</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, <em>Działalność małych i
+                                średnich przedsiębiorstw</em> , w: Ł. Sułkowski, J. Sokołowski (red.), Metody
+                            zarządzania współczesnym przedsiębiorstwem, SAN, Łódź 2015, ss. 133-168, ISBN&nbsp;
+                            978-83-64971-13-6.&nbsp;&nbsp;&nbsp;</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, Ł. Sułkowski,
+                            &nbsp;<em>Przedsiębiorstwa rodzinne</em>, w: Ł. Sułkowski, J. Sokołowski (red.), Metody
+                            zarządzania współczesnym przedsiębiorstwem, SAN, Łódź 2015, ss.169-210, ISBN&nbsp;
+                            978-83-64971-13-6.&nbsp;&nbsp;&nbsp;</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, <em>Family Business
+                                Facing Challenges of Contemporary Economy</em>, w: M.R. Contreras Loera, A. Marjański
+                            (red.), <em>The Challenges of Management in Turbulent Times. Global Issues from Local
+                                Perspective</em>, Universidad de Occidente, Sinaloa Mexico 2015, ss. 41-48, ISBN:
+                            978-607-7834-38-0 (printed version) ,978-607-7834-37-3 (digital version),</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, <em>Organizacja systemu
+                                zarządzania kryzysowego w Polsce - doświadczenia i perspektywy rozwoju</em>,&nbsp; “II
+                            International Research to Practice Conference “The Development of Civil Security in Ukraine
+                            within the Framework on European Integration”,&nbsp; Państwowy Uniwersytet Prawny im.
+                            Jarosława Mądrego,&nbsp; Kharkiv Ukraine, November 25<sup>th</sup> 2015, s. 29-30
+                            (abstract), ISBN 978-966-8922-29-9.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, <em>Opinia o
+                                innowacyjności dla Fabryki Maszyn Spożywczych Pleszew SA</em>, Łódź 2015.</span></li>
+                </ol>
+                <h3 class="heading-tertiary">2014</h3>
+                <ol>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">Ł. Sułkowski, A. Marjański,
+                            <em>Metodyka badań w małych podmiotach rodzinnych</em>, Problemy Zarządzania 3/2014,
+                            ss.222-235, ISSN 1644-9584.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, <em>Planowanie
+                                sukcesji</em>, w: M. Adamska (red.), <em>Przewodnik po sukcesji w formach rodzinnych.
+                                Kompendium wiedzy</em>, PM Doradztwo Gospodarcze , Kraków 2014, ss. 38- 61, ISBN
+                            978-83-940330-0-2.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">Ł. Sułkowski, A. Marjański,
+                            <em>Metodyka badań firm rodzinnych</em>, w: Przedsiębiorczość i Zarządzanie, tom XV, Zeszyt
+                            7, część 1, SAN, Łódź 2014, ss.9- 22, ISSN:1733-2486.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, <em>Grupy przedsiębiorstw
+                                rodzinnych – perspektywy badań empirycznych,</em>&nbsp; w: Przedsiębiorczość i
+                            Zarządzanie, tom XV, Zeszyt 7, część 1, SAN, Łódź 2014, ss. 187- 200, ISSN:1733-2486.</span>
+                    </li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, <em>Uwarunkowania
+                                wdrażania innowacji w małych przedsiębiorstwach</em> , w: Przedsiębiorczość i innowacje
+                            analiza systemowa, Zeszyty Naukowe nr 796, Ekonomiczne problemy usług nr 110, Uniwersytet
+                            Szczeciński, Szczecin 2014, ss.91-106, ISSN 1640-6818.</span></li>
+                </ol>
+                <h3 class="heading-tertiary">2013</h3>
+                <ol>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, <em>Succession in family
+                                business – main challenges and barriers</em>., w: Marcela Rebeca Contreras Loera, Łukasz
+                            Sułkowski, Andrzej Marjański (red.) &nbsp;<em>Development of small and medium-sized
+                                enterprises – </em><em>an international perspective,</em> Społeczna Akademia Nauk, Łódź,
+                            Poland and Universidad de Occidente, Sinaloa, Mexico, Łódź-Sinaloa 2013, s.
+                            83-92.&nbsp;</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, <em>Rodzinne grupy
+                                kapitałowe</em>, w: A. Marjański (red.) Firmy rodzinne – wyzwania globalne i lokalne,
+                            część I, Przedsiębiorczość i Zarządzanie, tom XIV zeszyt 6, SAN, Łódź 2013, ss.
+                            223-234.&nbsp;</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, <em>Solidne fundamenty
+                                przekazywania firmy</em>, w: Sukcesja jako projekt i proces - raport Thinktank, Warszawa
+                            2013, s. 12-15. Monografia ISBN 978-83-63460-25-9.</span></li>
+                </ol>
+                <h3 class="heading-tertiary">2012</h3>
+                <ol>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, <em>Strategie rozwoju
+                                małych i średnich przedsiębiorstw w regionie</em>, w: A. Adamik (red.), <em>Współpraca
+                                małych i średnich przedsiębiorstw w regionie. Budowanie konkurencyjności firm i
+                                regionu,</em> Difin, Warszawa. 2012, s.110-137. Monografia ISBN
+                            978-83-7641-609-0.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, <em>Specyfika firm
+                                rodzinnych</em>, w: Praca zbiorowa pod red. M. Zawadki <em>Firma w rodzinie czy rodzina
+                                w firmie. Metodologia wsparcia firm rodzinnych</em>,&nbsp; PARP, Warszawa 2012, s.30-38.
+                            Monografia ISBN 978-83-7633-145-2.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, <em>The specific
+                                character of family business</em>, w: M. Zawadka (ed.) Family in business or business in
+                            family, methodology for the support of family business, PARP, Warszawa 2012, s.35-42.
+                            Monografia ISBN 978-83-7633-145-2.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, <em>Sukcesja jako
+                                wyróżnik przedsiębiorstwa rodzinnego</em>, w: Ł. Sułkowski (red.) <em>Firmy rodzinne –
+                                współczesne wyzwania przedsiębiorczości rodzinnej. Kierunki i strategie rozwoju</em>,
+                            Przedsiębiorczość i Zarządzanie, tom XIII zeszyt 7, SAN, Łódź 2012, ss. 9-26. ISSN
+                            1733-2486.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, Wpływ kooperacji na
+                            strategie rozwoju małych i średnich przedsiębiorstw, w: S. Lachiewicz, <em>Formy i
+                                uwarunkowania współpracy we współczesnej gospodarce</em>, Studia Ekonomiczne Regionu
+                            Łódzkiego, PTE Oddział w Łodzi, ss. 197-211, ISSN 1897-7480.</span></li>
+                </ol>
+                <h3 class="heading-tertiary">2011</h3>
+                <ol>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">Ł. Sułkowski, A. Marjański,
+                            <em>Specific nature of Polish small and medium-sized family businesses- conclusion
+                                fr</em><em>om empirical studies</em>, w: A. Z. Nowak, B. Glinka, P. Hensel (editors),
+                            <em>Competition Ethics Management</em>, University of Warsaw, Warsaw 2011,&nbsp; pp.
+                            147-168, ISBN 978-83-61276-86-9.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">Ł. Sułkowski, A. Marjański, <em>Firmy
+                                rodzinne, jak odnieść sukces w sztafecie pokoleń</em>, Poltext, Warszawa 2009, ISBN
+                            978-83-7561-185-4, stron 216.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, <em>Światowe i polskie
+                                badania przedsiębiorstw rodzinnych</em>, w: A. Marjański (red. nauk.), <em>Firmy
+                                rodzinne – determinanty funkcjonowania i rozwoju. Zarządzanie rozwojem i zmianą,</em>
+                            Przedsiębiorczość i Zarządzanie tom XII zeszyt 7, SWSPiZ, Łódź 2011, s. 167-189. ISSN
+                            1733-2486</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, J. Marjańska,
+                            <em>Uwarunkowania strategii małych i średnich przedsiębiorstw rodzinnych, </em>w: A.
+                            Marjański (red. nauk.), <em>Firmy rodzinne – determinanty funkcjonowania i rozwoju.
+                                Zarządzanie rozwojem i zmianą</em>, Przedsiębiorczość i Zarządzanie tom XII zeszyt 7,
+                            SWSPiZ, Łódź 2011, s. 44-56, ISSN 1733-2486.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, <em>Uwarunkowania rozwoju
+                                małych i średnich przedsiębiorstw rodzinnych w Polsce,</em> w: S. Lachiewicz, K.
+                            Szymańska, A. Walecka, <em>Zarządzanie zasobami ludzkimi w małych i średnich
+                                przedsiębiorstwach</em>, PŁ, Łódź 2011, s. 332-346. Monografia ISBN
+                            978-83-7283-399-0.</span></li>
+                </ol>
+                <h3 class="heading-tertiary">2010</h3>
+                <ol>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, J. Ropęga, <em>Attributes
+                                of family film companies in the process of failure prevention in an SME sector</em>, w:
+                            M.K. Wyrwicka, K. Grzybowska (red.), <em>Knowledge Management and Innovation in the</em><em>
+                                Enterprises</em>, Poznan University of Technology, Poznań 2010, s. 45-64. (monografia)
+                            ISBN 978-83-7143-951-3.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, <em>Badania sukcesji w
+                                małych przedsiębiorstwach rodzinnych w Polsce, </em>Problemy Zarządzania, 2010, Vol. 8,
+                            nr 4(30), s. 87-106. ISSSN 1644-9584</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">Ł. Sułkowski, A. Marjański,
+                            <em>Specyfika polskich małych i średnich przedsiębiorstw rodzinnych- wnioski z badań
+                                empirycznych</em>, Problemy Zarządzania, 2010, Vol. 8, nr 4(30), s. 9-28. ISSSN
+                            1644-9584.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, <em>Specyfika zarządzania
+                                w polskich małych i średnich przedsiębiorstwach rodzinnych – wnioski z badań, </em>w: J.
+                            Lichtarski (red.) Zmiany w teorii i praktyce zarządzania, Przedsiębiorczość i Zarządzanie,
+                            Tom XI, zeszyt 8, SWSPiZ, Łódź 2010, ss. 135-148, ISSN 1733-2486.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, <em>Przedsiębiorczość,
+                                przedsiębiorca, przedsiębiorstwo (1,1; 1,2; 1,3)</em>, w: J. Różański, J. Sokołowski
+                            (red. nauk.), <em>Zarządzanie współczesnym przedsiębiorstwem – wybrane zagadnienia</em>,
+                            SWSPiZ, Studia i Monografie nr 27, Łódź 2010, s. 13-23. Monografia ISBN
+                            978-83-60230-86-2.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, <em>Przedsiębiorstwo
+                                rodzinne</em>, w: J. Różański, J. Sokołowski (red. nauk.), <em>Zarządzanie współczesnym
+                                przedsiębiorstwem – wybrane zagadnienia</em>, SWSPiZ, Studia i Monografie nr 27, Łódź
+                            2010, s. 75-108. Monografia ISBN 978-83-60230-86-2.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, <em>Badania małych i
+                                średnich przedsiębiorstw rodzinnych w Polsce</em>, w: M. Matejun (red. nauk.),
+                            <em>Wyzwania i perspektywy zarządzania w małych i średnich przedsiębiorstwach</em>, C.H.
+                            Beck, Warszawa 2010, s. 30-47. Monografia ISBN 978-83-255—1722-9.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">J. Krakowiak, W. Kocemba, A. Marjański,
+                            A. Kowalska, J. Sułkowska, <em>Miejsce zamieszkania a struktura socjalno-demograficzna
+                                respondentów biorących udział w badaniu satysfakcji pacjentów z leczenia szpitalnego w
+                                Szpitalu Powiatowym w Brzezinach w roku 2007</em>, w: J. Krakowiak, A. Marjański (red.
+                            nauk.), <em>Problemy organizacji i zarządzania w ochronie zdrowia – Ocena i zachowanie
+                                świadczeniobiorców usług medycznych</em>, Przedsiębiorczość i Zarządzanie tom XI zeszyt
+                            7,&nbsp; SWSPiZ, Łódź 2010, s. 91-100. ISSN 1733-2486. (1)</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">J. Krakowiak, W. Kocemba, A. Marjański,
+                            A. Kowalska, <em>Ocena jakości opieki lekarskiej w oddziale szpitalnym w opinii pacjentów
+                                hospitalizowanych w szpitalu Powiatowym w Brzezinach w latach 1999 i 2004,</em> w: J.
+                            Krakowiak, A. Marjański (red. nauk.), <em>Problemy organizacji i zarządzania w ochronie
+                                zdrowia – Ocena i zachowanie świadczeniobiorców usług medycznych</em>, Przedsiębiorczość
+                            i Zarządzanie tom XI zeszyt 7, SWSPiZ, Łódź 2010, s. 55-64. ISSN 1733-2486. (2)</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">J. Krakowiak, W. Kocemba, A. Marjański,
+                            K. Bogus, A. Kowalska, J. Sułkowska, <em>Szpitalna izba przyjęć w opinii pacjentów
+                                hospitalizowanych w Szpitalu Powiatowym w Brzezinach w 1999 i 2004 roku</em>, w: J.
+                            Krakowiak, A. Marjański (red. nauk.), <em>Problemy organizacji i zarządzania w ochronie
+                                zdrowia – Ocena i zachowanie świadczeniobiorców usług medycznych</em>, Przedsiębiorczość
+                            i Zarządzanie tom XI zeszyt 7, SWSPiZ, Łódź 2010, s. 111-118. ISSN 1733-2486. (3)</span>
+                    </li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">J. Krakowiak, W. Kocemba, A. Marjański,
+                            A. Kowalska, <em>Ocena jakości pobytu w oddziale szpitalnym w opinii pacjentów
+                                hospitalizowanych w szpitalu Powiatowym w Brzezinach w 1999 i 2004 roku</em>, w: J.
+                            Krakowiak, A. Marjański (red. nauk.), <em>Problemy organizacji i zarządzania w ochronie
+                                zdrowia – Ocena i zachowanie świadczeniobiorców usług medycznych</em>, Przedsiębiorczość
+                            i Zarządzanie tom XI zeszyt 7, SWSPiZ, Łódź 2010, s. 65-76. ISSN 1733-2486.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">J. Krakowiak, W. Kocemba, W. Stelmach,
+                            A. Kowalska A. Marjański, <em>Czynniki socjalno-demograficzne o ocena jakości pobytu w
+                                oddziale szpitalnym w szpitalu Powiatowym w Brzezinach</em>, w: J. Krakowiak, A.
+                            Marjański (red. nauk.), <em>Problemy organizacji i zarządzania w ochronie zdrowia – Ocena i
+                                zachowanie świadczeniobiorców usług medycznych</em>, Przedsiębiorczość i Zarządzanie tom
+                            XI zeszyt 7, SWSPiZ, Łódź 2010, s. 77-90. ISSN 1733-2486.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">J. Krakowiak, W. Kocemba, W. Stelmach,
+                            A. Kowalska, A. Marjański, <em>Opinie pacjentów dotyczące szpitalnej izby przyjęć Szpitala
+                                Powiatowego w Brzezinach w 2004 roku przy uwzględnieniu czynników
+                                socjalno-demograficznych</em>, w: J. Krakowiak, A. Marjański (red. nauk.), <em>Problemy
+                                organizacji i zarządzania w ochronie zdrowia – Ocena i zachowanie świadczeniobiorców
+                                usług medycznych</em>, Przedsiębiorczość i Zarządzanie tom XI zeszyt 7, SWSPiZ, Łódź
+                            2010, s. 101-110. ISSN 1733-2486.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">J. Krakowiak, W. Kocemba, A. Marjański,
+                            K. Bogus, A. Kowalska, <em>Wpływ czynników socjalno-demograficznych na ocenie opieki
+                                lekarskiej w oddziałach szpitalnych w Szpitalu Powiatowym w Brzezinach</em>, w: J.
+                            Krakowiak, A. Marjański (red. nauk.), <em>Problemy organizacji i zarządzania w ochronie
+                                zdrowia – Ocena i zachowanie świadczeniobiorców usług medycznych</em>, Przedsiębiorczość
+                            i Zarządzanie tom XI zeszyt 7, SWSPiZ, Łódź 2010, s. 119-128. ISSN 1733-2486.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">J. Krakowiak, W. Kocemba, W. Stelmach,
+                            A. Kowalska, A. Marjański, <em>Badanie satysfakcji pacjentów z usług medycznych i
+                                pozamedycznych w szpitalach powiatowych województwa łódzkiego, szpital powiatowy w
+                                Brzezinach</em>, w: J. Krakowiak, A. Marjański (red. nauk.), <em>Problemy organizacji i
+                                zarządzania w ochronie zdrowia – Ocena i zachowanie świadczeniobiorców usług
+                                medycznych</em>, Przedsiębiorczość i Zarządzanie tom XI zeszyt 7, SWSPiZ, Łódź 2010, s.
+                            129-142. ISSN 1733-2486.</span></li>
+                </ol>
+                <h3 class="heading-tertiary">2009</h3>
+                <ol>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">Ł. Sułkowski, A. Marjański, <em>Firmy
+                                rodzinne, jak odnieść sukces w sztafecie pokoleń</em>, Poltext, Warszawa 2009, ISBN
+                            978-83-4561-027-7, stron 216.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, K. Staniszewska,
+                            <em>Kultura organizacyjna jako podstawa wdrażania współczesnych koncepcji zarządzania</em>,
+                            w: M. Matejun, M. Szczepańczyk, <em>Współczesne metody zarządzania w praktyce
+                                gospodarcze</em>j, Monografia- Politechnika Łódzka, Łódź 2009, s. 224-231.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">Ł. Sułkowski, A. Marjański,
+                            <em>Rekomendacje</em>, w: <em>Firmy rodzinne w polskiej gospodarce – szanse i wyzwania</em>,
+                            PARP, Warszawa 2009, s. 24-28. Monografia ISBN 978-83-7633-073-0</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">Ł. Sułkowski, A. Marjański,
+                            <em>Recommendations</em>, w: <em>Family Businesses and the Polish Economy – Opportunities
+                                and Challenges</em>, PARP, Warszawa 2009, s. 35-44. Monografia ISBN
+                            978-83-7633-073-0</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">Ł. Sułkowski, A. Marjański, A.
+                            Kowalewska, J. Szut,<em> Definicja pojęcia firmy rodzinnej,</em> w: <em>Firmy rodzinne w
+                                polskiej gospodarce – szanse i wyzwania</em>, PARP, Warszawa 2009, s. 29-31. Monografia
+                            ISBN 978-83-7633-073-0.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">Ł. Sułkowski, A. Marjański, A.
+                            Kowalewska, J. Szut, Definition of a Family Business, w: <em>Family Businesses and the
+                                Polish Economy – Opportunities and Challenges</em>, PARP, Warszawa 2009, s. 45-51.
+                            Monografia ISBN 978-83-7633-073-0</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">Ł. Sułkowski, A. Marjański, A.
+                            Kowalewska, J. Szut, B. Lewandowska, M. Kwiatkowska, <em>Charakterystyka firm
+                                rodzinnych,</em> w: <em>Firmy rodzinne w polskiej gospodarce – szanse i wyzwania</em>,
+                            PARP, Warszawa 2009, s. 45-78. Monografia ISBN 978-83-7633-073-0.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">Ł. Sułkowski, A. Marjański, A.
+                            Kowalewska, J. Szut, B. Lewandowska, M. Kwiatkowska, <em>Features of Family Businesses</em>,
+                            w: <em>Family Businesses and the Polish Economy – Opportunities and Challenges</em>, PARP,
+                            Warszawa 2009, s. 73-114. Monografia ISBN 978-83-7633-073-0.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, <em>Kultura organizacyjna
+                                jako zasób strategiczny biznesu rodzinnego</em>, w: Ł. Sułkowski, K. Waniek, <em>Studia
+                                z zarządzania międzykulturowego cz. II</em>, SWSPiZ- Studia i Monografie, Łódź 2009, s.
+                            285-291. Monografia ISBN 978-83-60230-65-7.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, <em>Wykorzystanie
+                                strategii niszy rynkowej jako metoda wzrostu konkurencyjności małych
+                                przedsiębiorstw</em>, w: S. Lachiewicz, M. Matejun (red.), <em>Konkurencyjność jako
+                                determinanta rozwoju przedsiębiorstwa</em>, Politechnika Łódzka, Łódź 2009, s. 213-217.
+                            Monografia &nbsp;ISBN 978-83-7283-304-4.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, Zadania menedżera w
+                            budowaniu pozytywnych postaw pracowników w obliczu współczesnych zmian, w: J. Lichtarski
+                            (red. nauk.), Zarządzanie w obliczu współczesnych wyzwań, Przedsiębiorczość i Zarządzanie,
+                            Tom X, zeszyt 2, SWSPiZ, Łódź 2009, s. 125-134.&nbsp;&nbsp; ISSN:1733-2486.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, <em>Zarządzanie kryzysowe
+                                jako element systemu bezpieczeństwa państwa</em>, w: Ł. Sułkowski, A. Marjański (red.
+                            nauk.), <em>Zarządzanie bezpieczeństwem narodowym</em>, SWSPiZ, Przedsiębiorczość i
+                            Zarządzanie,&nbsp; Tom X zeszyt 3, Łódź 2009, s. 297-305.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, <em>Udział organizacji
+                                pozarządowych w zintegrowanym systemie zarządzania kryzysowego –szanse i zagrożenia</em>
+                            w: M. Włodarczyk, A. Marjański (red. nauk.), <em>Bezpieczeństwo i zarządzanie kryzysowe-
+                                aktualne wyzwania. Zarządzanie bezpieczeństwem w sektorze publicznym</em>, SWSPiZ, Łódź
+                            2009, Przedsiębiorczość i Zarządzanie Tom X, zeszyt 8, s.153-162. ISSN:1733-2486.</span>
+                    </li>
+                </ol>
+                <h3 class="heading-tertiary">2008</h3>
+                <ol>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, <em>Procesy zarządzania
+                                strategicznego w małych i średnich przedsiębiorstwach rodzinnych</em>, w: R. Krupski
+                            (red.) <em>Zarządzanie strategiczne – podstawowe problemy</em>, WWSZiP, Wałbrzych 2008, s.
+                            305-320. Monografia ISBN 978-83-60904-01-05.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, <em>Specyfika zarządzania
+                                i finansowania małych i średnich przedsiębiorstw rodzinnych,</em> w: L. Lewandowska
+                            (red.), <em>Nowe koncepcje zarządzania i finansowania firm regionu łódzkiego</em>, PTE, Łódź
+                            2008, s. 483-502. Monografia ISBN 978-83-923777-1-9.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">Ł. Sułkowski, A. Marjański,
+                            <em>Techniki zarządzania sukcesją międzypokoleniową w biznesach rodzinnych,</em> w: S.
+                            Marciniak, J. Ostaszewski (red. nauk.), <em>Nowoczesne instrumenty zarządzania</em>, SHG,
+                            Warszawa 2008, s. 259-266. Monografia ISBN 978-7378-373-7.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, <em>Nadzór właścicielski
+                                w przedsiębiorstwach rodzinnych</em>, w: J. Lichtarski (red. nauk.), <em>Nowe tendencje
+                                w zarządzaniu organizacjami</em>, Przedsiębiorczość i Zarządzanie t. IX, z.2, SWSPiZ,
+                            Łódź – Ostrów Wlkp. 2008, s.125-136.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, <em>Rola nadzoru
+                                właścicielskiego w przedsiębiorstwach rodzinnych</em>, w: B. Godziszewski (red.),
+                            <em>Zarządzanie organizacjami w gospodarce opartej na wiedzy</em>, TNOiK, Toruń 2008, s.
+                            429-438. Monografia ISBN 978-83-7285-402-5.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, <em>Zarządzanie
+                                bezpieczeństwem lokalnym na przykładzie Ochotniczej Straży Pożarnej w Jeżowie, </em>w:
+                            Ł. Sułkowski, A. Marjański (red.), Zarządzanie bezpieczeństwem narodowym, SWSPiZ, Łódź 2008,
+                            s. 121-132. ISBN 978-83-60-230-49-7.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, <em>Strategie wzrostu
+                                przedsiębiorstw rodzinnych</em>, w: T. Dudycz (red.), Uwarunkowania i prawidłowości
+                            gospodarcze wywierające wpływ na efektywność funkcjonowania przedsiębiorstw, Politechnika
+                            Wrocławska, Wrocław 2008, s. 155-162. Monografia ISBN 978-83-926902-3-8.</span></li>
+                </ol>
+                <h3 class="heading-tertiary">2007</h3>
+                <ol>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">Ł. Sułkowski, A. Marjański:
+                            <em>Sukcesja jako strategiczny problem rozwoju małych przedsiębiorstw rodzinnych</em>, w: S.
+                            Lachiewicz (red.), <em>Zarządzanie rozwojem organizacji,</em> PŁ, Łódź 2007, t.2 s. 130-139.
+                            Monografia ISBN 978-83-7283-241-6.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański: <em>Strategie małych
+                                przedsiębiorstw rodzinnych,</em> w: S. Lachiewicz, M. Matejun (red.), <em>Problemy
+                                współczesnej praktyki zarządzania</em>, PŁ, Łódź 2007, s. 10-21.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">Ł. Sułkowski, A. Marjański,
+                            <em>Sukcesja – międzypokoleniowa strategia rozwoju biznesów rodzinnych, </em>w: J.
+                            Lichtarski (red. nauk.), <em>Rozwój organizacji – nauka dla praktyki gospodarczej i
+                                samorządowej, </em>Przedsiębiorczość i Zarządzanie, T. VIII, z.2<em>, </em>SWSPiZ , Łódź
+                            – Ostrów Wlkp. 2007, s. 55- 66. ISSN:1733-2486.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">Ł. Sułkowski, A. Marjański,
+                            <em>Perspektywy rozwoju małych przedsiębiorstw rodzinnych w warunkach globalizacji</em>, w:
+                            J. Stankiewicz (red. nauk.): <em>Konkurencyjność i innowacyjność współczesnych
+                                organizacji,</em> Uniwersytet Zielonogórski, Zielona Góra 2007, s.55-62. Monografia ISBN
+                            978-83-7481-098-2.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, Ł. Sułkowski,
+                            <em>Przedsiębiorczość menedżera-właściciela w małej firmie rodzinnej XXI wieku, </em>w: M.
+                            Laszuk (red. nauk.): <em>Przedsiębiorczy menedżer w przedsiębiorczej organizacji,</em>
+                            Szkoła Główna Handlowa, Warszawa 2007, s. 171-186. Monografia ISBN 978-83-7378-293-8</span>
+                    </li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">Ł. Sułkowski, A. Marjański,
+                            <em>Problemy motywowania pracowników małych przedsiębiorstw rodzinnych, </em>w: J. Penc
+                            (red.), <em>Problemy zarządzania zasobami ludzkimi w organizacji XXI wieku, </em>PŁ, Łódź
+                            2007, s. 340-346.Monografia ISBN 978-83-85399-62-9.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, <em>Strategia rozwoju
+                                kraju w latach 2007-2013</em>, [w:] <em>Projekty partnerskie a zamówienia publiczne,
+                            </em>Praca zbiorowa, SWSPiZ, Łódź 2007, &nbsp;s. 1017 Monografia ISBN
+                            978-83-60230-31-2.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, <em>Strategie małych
+                                przedsiębiorstw rodzinnych w Polsce</em> – <em>wnioski z badań</em>, w: W. Kwiatkowska
+                            (red. nauk.), <em>Czynniki rozwoju przedsiębiorczości i konkurencyjności gospodarek
+                                Przedsiębiorczość i zarządzanie</em>, t. VIII zeszyt 1, SWSPiZ, Łódź 2007, s.
+                            235-246.&nbsp;&nbsp; ISSN:1733-2486.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański,<em> Specyfika strategii
+                                małych przedsiębiorstw rodzinnych w Polsce – badania empiryczne, </em>w: Organizacja i
+                            Kierowanie nr 3(129) / 2007, s. 59-72. ISSN 0137-5466.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, <em>Globalizacja a system
+                                zarządzania małym przedsiębiorstwem rodzinnym, </em>w: J. Skalik (red. nauk.),
+                            <em>Zmiana warunkiem sukcesu. Przeobrażenia systemów zarządzania przedsiębiorstw, </em>Prace
+                            Naukowe AE im. O. Langego nr 1184, Wrocław 2007, s. 229-234. ISSN 0324-8445.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, <em>Development of Small
+                                Family Enterprises as Effect of Transformation in Central and Eastern Europe</em>, [w:]
+                            R. Piasecki (red<em>.), Transition of Central European Economies and Enterprises,</em>
+                            Studia i Monografie nr 16, SWSPiZ, Łódź 2007, s. 159-172. Monografia ISBN
+                            978-83-60230-20-6.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, <em>Kultura organizacyjna
+                                przedsiębiorstw rodzinnych, wyniki badań</em>, [w:] Ł. Sułkowski (red.nauk.), <em>Studia
+                                z zarządzania&nbsp; międzykulturowego</em>, SWSPiZ – Studia i Monografie, Łódź 2007, s.
+                            267-276. ISBN 978-83-60230-13-8.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, <em>Przedsiębiorca i
+                                przedsiębiorczość w teoriach ekonomicznych</em>, [w:] J. Różański (red. nauk.),
+                            Przedsiębiorczość i Zarządzanie Tom VIII zeszyt&nbsp; 4, SWSPiZ, Łódź, 2007, s.
+                            15-30.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, <em>Badania strategii
+                                małych przedsiębiorstw rodzinnych w Polsce</em>, [w:] T. Dudycz, Ł. Tomaszewicz (red.
+                            nauk.), <em>Efektywność – rozważania nad istotą i pomiarem</em>, AE im. O. Langego, Wrocław
+                            2007, s. 248-257. ISSN 0324-8445.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">Ł. Sułkowski, A. Marjański,
+                            <em>Strategie wzrostu małych biznesów rodzinnych, </em>w: <em>Strategie wzrostu wartości
+                                przedsiębiorstwa</em>, Uniwersytet Szczeciński, Szczecin 2007, s. 639-649, w: Strategie
+                            wzrostu wartości przedsiębiorstwa", praca zbiorowa pod red. E. Urbańczyka, Wydział Nauk
+                            Ekonomicznych i Zarządzania Uniwersytetu Szczecińskiego, Szczecin 2007. ISBN
+                            978-83-60585-04-7.</span></li>
+                </ol>
+                <h3 class="heading-tertiary">2006</h3>
+                <ol>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański, Rozprawa doktorska
+                            "Strategie małych i średnich przedsiębiorstw rodzinnych w Polsce, Akademia Ekonomiczna we
+                            Wrocławiu.&nbsp;&nbsp;</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">Ł. Sułkowski, A. Marjański:
+                            <em>Sukcesja w biznesie rodzinnym jako przykład strategicznego transferu zasobów</em>, [w:]
+                            Krupski R. (red. nauk.) <em>Zarządzanie strategiczne ujęcie zasobowe</em>, WWSZiP, Wałbrzych
+                            2006, s233-244. Monografia. ISBN 83-920319-7-0.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">Ł. Sułkowski, A. Marjański:
+                            <em>Determinanty przedsiębiorczości w biznesach rodzinnych – badania empiryczne</em>, [w:]
+                            Kaleta A., Moszkowicz K., Woźniak L. (red. nauk.) <em>Przedsiębiorczość i innowacyjność.
+                                Wyzwania współczesności</em>, AE im. O. Langego, Wrocław 2006, Prace naukowe AE im. O.
+                            Langego we Wrocławiu nr 1116, ISNN 0324-8445, s. 340-348.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">Ł. Sułkowski, A. Marjański:
+                            <em>Zastosowanie teorii zarządzania strategicznego do małych przedsiębiorstw
+                                rodzinnych</em>, w: Kaleta A., Moszkowicz K.(red. nauk.): <em>Zarządzanie strategiczne w
+                                badaniach teoretycznych i w praktyce,</em> AE im. O. Langego, Wrocław 2006, s. 301-306
+                            Prace naukowe AE im. O. Langego we Wrocławiu nr 1116, ISNN 0324-8445</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">Ł. Sułkowski, A. Marjański: <em>Zmiana
+                                warty w przedsiębiorstwie rodzinnym – ewolucja czy rewolucja</em>, [w:] Skalik J. (red.
+                            nauk.) <em>Zmiana warunkiem sukcesu. Dynamika zmian w organizacji – ewolucja czy
+                                rewolucja,</em> AE im. O. Langego, Wrocław 2006, ISNN 0324-8445, s. 390-395.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">Marjański: <em>Czy mogę zostać
+                                przedsiębiorcą</em>?, [w:] Sułkowski Ł. (red. nauk.): <em>Tworzenie nowych przedsięwzięć
+                                gospodarczych</em>, Przedsiębiorczość i zarządzanie, tom VII, zeszyt 2, SWSPiZ, Łódź
+                            2006, ss.37-36, ISSN 1733-2486.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">Marjański: <em>Co warto wiedzieć o
+                                zarządzaniu</em>, [w:] Sułkowski Ł. (red. nauk.): <em>Tworzenie nowych przedsięwzięć
+                                gospodarczych</em>, , tom VII, zeszyt 2, SWSPiZ, Łódź 2006, ss. 59-72, ISSN
+                            1733-2486.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">Marjański: <em>Rola doradztwa
+                                gospodarczego w tworzeniu strategii przedsiębiorstw rodzinnych MŚP</em>, [w:] Skłodowski
+                            H. (red. nauk<em>.): Współczesny paradygmat doradztwa zawodowego w zastosowaniu
+                                praktycznym</em>, SWSPiZ, Łódź 2006, ss. 219-228, Monografia ISBN
+                            978-83-60230-07-7</span></li>
+                </ol>
+                <h3 class="heading-tertiary">2005</h3>
+                <ol>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">A. Marjański: <em>Strategie
+                                przedsiębiorstw rodzinnych MŚP</em>, [w:] Sułkowski Ł. (red nauk.)<em> Determinanty
+                                rozwoju przedsiębiorstw rodzinnych w Polsce</em>, red., Łódź-Toruń 2005.ss. 179-210,
+                            ISBN 83-7285-262-6.</span></li>
+                    <li><span style="font-family: arial, helvetica, sans-serif;">Ł. Sułkowski, A. Marjański: <em>Rodzaje
+                                klasyfikacji przedsiębiorstw rodzinnych</em>, [w:] Sułkowski Ł. (red. nauk.)<em>
+                                Determinanty rozwoju przedsiębiorstw rodzinnych w Polsce</em>, red., Łódź-Toruń 2005.
+                            ss. 111-134, ISBN 83-7285-262-6.</span></li>
+                </ol>
+            </article>
+        </section>
+        <div class="central-line"></div>
+
+        <section class="main">
+            <article id="dla-studentow">
+                <h2 class="heading-secondary">Dla studentów</h2>
+                <h3 class="subtitle">
+                    Konsultacje dla studentów
+                </h3>
+                <p class="text"><br>
+                    Konsultacje na czas wakacji zostają zawieszone. Zapraszam po 10 września 2022.
+                </p>
+                <p class="text"><br>
+                    Konsultacje w semestrze letnim 2021/2022 - <b> wtorki w godz. 20.00-21.00.</b>
+                </p>
+                <p class="text"><br>
+                    W czasie Covid-19 konsultacje i egzaminy poprawkowe odbywają się zdalnie poprzez platformę MS Teams.
+                    Zespół Konsultacje dla studentów - kod dostępu 6roq6be
+                </p>
+                <h3 class="heading-tertiary"><br>Materiały dla studentów/Materials for students
+                </h3>
+                <p class="text"><br>
+                    Obecnie materiały dydaktyczne dla studentów są zamieszczane na Teams.
+                </p>
+            </article>
+        </section>
+        <div class="central-line"></div>
+    </main>
+    <!-- FOOTER -->
+    <div class="footer-heading">
+        <h4 class="heading-footer">Kontakt</h4>
+    </div>
+    <footer id="kontakt">
+            <div class="footer-item">
+                <img class="icon-connect" src="./resources/images/icon-email.png" alt="E-mail">
+                <p><a href="mailto:amarjanski@san.edu.pl">amarjanski@san.edu.pl</a></p>
+            </div>
+            <div class="footer-item">
+                <img class="icon-connect" src="./resources/images/icon-phone.png" alt="Telefon">
+                <p><a href="tel:+48426646675">+48 42 664 66 75</a></p>
+            </div>
+            <div class="footer-item">
+                <img class="icon-connect" src="./resources/images/icon-mobile.png" alt="Telefon komórkowy">
+                <p>
+                    <a href="tel:+48696043742">+48 696 043 742</a>
+                </p>
+            </div>
+            <div class="footer-item">
+                <a class="social" href="https://www.facebook.com/andrzej.marjanski"><img
+                        src="./resources/images/efbe.svg" alt="Facebook"></a>
+            </div>
+            <div class="footer-item">
+                <!-- LinkedIn? Strona uczelniana? -->
+                <!-- <a class="social" href="#"><img
+                        src="./resources/images/efbe.svg" alt="empty"></a> -->
+            </div>
+    </footer>
+    <script src="./resources/js/script.js" defer></script>
+</body>
+</html>
+<!-- © PUPP. Wszelkie prawa zastrzeżone -->
