@@ -11,7 +11,6 @@ html {
 
 /* COLOURS */
 :root {
-  --main-blue: #7b96d0;
   --main-white: #F5F5F5;
   --dark-high: #252525;
   --dark-mid: #4f4f4f;
@@ -107,7 +106,7 @@ header {
   height: 40vh;
   width: 100vw;
   overflow: hidden;
-  border-bottom: 4px solid var(--main-blue);
+  border-bottom: 4px solid var(--dark-low);
 }
 
 .logo {
@@ -129,7 +128,8 @@ header {
 
 /* BANNER */
 header {
-  background: url("../images/banner-amarjanski.jpg");
+  background: url("../images/banner.jpg");
+  /* Photo by <a href="https://unsplash.com/@carltraw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Carl Raw</a> on <a href="https://unsplash.com/photos/dmc4sVdnSDs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
   background-size: cover;
   background-position-x: 50%;
   background-position-y: 30%;
@@ -315,8 +315,9 @@ header {
 
 article {
   border: 1px solid var(--dark-low);
-  border-top: 6px solid var(--main-blue);
-  border-bottom: 6px solid var(--main-blue);
+  /* border-top: 6px solid var(--main-blue);
+  border-bottom: 6px solid var(--main-blue); */
+  box-shadow: 20px 20px var(--dark-high);
   padding: 5em;
   background-color: #ffffff;
   width: 100%;
